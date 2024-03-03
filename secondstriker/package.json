@@ -1,0 +1,20 @@
+{
+  "name": "secondstriker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "copy-dist": "cp -r dist/* ../backend/public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue-jsx": "^3.1.0"
+  }
+}
